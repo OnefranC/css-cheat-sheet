@@ -1,0 +1,220 @@
+/*
+
+*{
+    margin:0;
+    padding:0;
+}             
+this is a reset function--removes all the paddings and margins
+*/
+
+
+body{
+    background-color:color #f4f4f4;color: #555555;
+
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:16px;
+    font-weight:normal; 
+
+    font: normal 16px Arial, Helvetica, sans-serif;  /* same as above */
+
+    line-height: 1.6em;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(67, 67, 60);  
+}
+
+a:hover{
+    color:red;  
+}
+
+a:active{
+    color:green;
+}
+
+
+.container{
+    width: 90%; margin:auto;
+}
+
+
+.button{
+    background-color:#333; color:#fff;
+    padding: 8px 16px; border:none;
+    border-radius:4px;
+    width:120px; letter-spacing:1px;
+    text-transform:sentence case;
+}
+
+.clr{
+    clear:both;
+}
+/*when you use float function,u need to clear it so that
+anything you put under won't get messed up*/
+
+
+.box-1{
+    background-color:#2f2b2b;
+    color:#ffffff;
+   /* border-right:5px red solid;
+      border-left:5px red solid;
+      border-top:5px red solid;
+      border-bottom:5px red solid; */
+
+    border: 5px red solid; /* same as above */
+    /*border-width:3px;
+      border-bottom-width:10px;
+      border-top-style:dotted; --playing with border styles--*/
+
+      padding-top:16px;
+      padding-bottom:16px;
+      padding-left:16px;
+      padding-right:16px;
+
+      padding:16px; /*same as above*/
+
+      margin-top:20px;
+      margin: 20px 0;
+    }
+
+
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:0.02em;
+    word-spacing:0.5em;  
+}      
+
+
+.box-2{
+    border:5px dotted #ccc;
+    padding: 16px;
+    margin:20px 0;
+    border-radius:16px;
+}
+
+.categories{
+    border:1px #ccc solid;
+    padding:4px;
+    margin:0px 0;
+    border-radius:16px;
+}
+
+.categories h2{
+    text-align:center;
+}
+
+.categories ul{
+    padding:0px 48px;
+    list-style:square;
+}
+
+.categories li{
+    padding:0px 4px;
+    border-bottom:dotted 1px #333;
+    list-style-image:url('../images/check.png');
+}
+
+.my-form{
+    padding:20px;
+}
+.my-form .form-group{
+    padding:4px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+}
+
+
+
+.button:hover{
+    background:rgb(17, 93, 234); color:#fff;
+
+}
+
+.block{
+    float:left; width:33.3%;
+    border:1px solid #ccc;
+    padding:8px;
+    box-sizing:border-box;
+}
+
+#main-block{
+    float:left; width:70%;
+    padding:16px;
+    box-sizing:border-box;
+}
+
+#sidebar{
+    float:right; width:30%;
+    background-color:#333;
+    color:#fff;
+    padding:8px;
+    box-sizing:border-box;
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image:url('../images/bgimage');
+    background-position:100px 200px;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.p-box h1{
+    position:absolute;
+    top:40px;
+    left:200px;
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+    padding:8px 8px;
+    text-align:center;
+}
+
+.My-List li:first-child{
+background:red;
+}
+
+.My-List li:last-child{
+    background:blue;
+}
+
+.My-List li:nth-child(5){
+    background:rgb(16, 45, 5);
+}
+
+.My-List li:nth-child(even){
+    background:grey;
+}
+
+
+
+
+
+
+
+
